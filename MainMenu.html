@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منيو شوكرمان</title>
+    <style>
+        body {
+            font-family: Dubai;
+            text-align: center;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+        
+        .menu-item {
+            margin: 15px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 200px;
+            transition: transform 0.3s;
+            box-sizing: border-box;
+        }
+        
+        .menu-item:hover {
+            transform: scale(1.1);
+        }
+        
+        .menu-item img {
+            width: 100%; 
+            height: 200px; 
+            object-fit: contain; 
+            border-radius: 10px 10px 0 0;
+            background-color: #fff; 
+        }
+        
+        
+        .menu-item a {
+            display: block;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            padding: 10px;
+            background-color: #fff;
+            text-align: center;
+        }
+        
+        .menu-item a:hover {
+            background-color: #990000;
+            color: #fff;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>منيو شوكرمان</h1>
+    <h2>لحظات غنية...طعم خالد</h2>
+    <div class="container">
+        <div class="menu-item">
+            <a href="cold.html">
+                <img src="resources\imgs\MainMenu\Cold.png" alt="صورة 1">
+                المشروبات الباردة
+            </a>
+        </div>
+        <div class="menu-item">
+            <a href="Hot.html">
+                <img src="resources\imgs\MainMenu\Hot.png" alt="صورة 2">
+                المشروبات الساخنة
+            </a>
+        </div>
+        <div class="menu-item">
+            <a href="mojito.html">
+                <img src="resources\imgs\MainMenu\Mojito.png" alt="صورة 3">
+                الموهيتو
+            </a>
+        </div>
+        <div class="menu-item">
+            <a href="RamadanBottles.html">
+                <img src="resources\imgs\MainMenu\RamadanBottles.png" alt="صورة 4">
+                المشروبات الرمضانية
+            </a>
+        </div>
+    </div>
+</body>
+</html>
